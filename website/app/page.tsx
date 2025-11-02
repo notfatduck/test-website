@@ -11,7 +11,7 @@ export default function Home() {
       <div className="w-full max-w-2xl flex flex-col items-center justify-center text-center">
         {/* Header Section */}
         <div className="mb-8 sm:mb-12 w-full">
-          <div className="text-left w-full">
+          <div className="text-center w-full">
             <p className="text-2xl sm:text-3xl md:text-4xl font-light text-slate-600 dark:text-slate-400 mb-2">let's</p>
             <h1 className="text-6xl sm:text-7xl md:text-8xl font-black text-slate-800 dark:text-white leading-tight mb-6">
               talk about it
