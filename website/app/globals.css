@@ -55,5 +55,13 @@
   }
   body {
     @apply bg-background text-foreground;
+    /* Centering + background */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Gentle accessible gradient background*/
+    background: linear-gradient(135deg, #eff6ff 0%, #f3e8ff 50%, #fff0f6 100%);
   }
 }
